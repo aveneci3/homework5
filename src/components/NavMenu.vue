@@ -1,6 +1,5 @@
 <template>
-  <nav class="bg-slate-900 h-20 flex items-center justify-center text-white">
-    <div class="flex space-x-4">
+  <nav class="bg-slate-900 h-20 flex items-center justify-center text-white space-x-4">
       <RouterLink :to="{name: 'Home'}">Home</RouterLink>
       <RouterLink :to="{name: 'Other'}">Other</RouterLink>
       <RouterLink :to="{name: 'SettingsPage'}">Settings</RouterLink>
@@ -12,7 +11,6 @@
       <div v-else>
         <RouterLink :to="{name: 'LoginPage'}">Login</RouterLink>
       </div>
-    </div>
   </nav>
 </template>
 
